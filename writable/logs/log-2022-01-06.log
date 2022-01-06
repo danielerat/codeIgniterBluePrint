@@ -1,0 +1,10 @@
+CRITICAL - 2022-01-06 05:29:33 --> Call to undefined function swaltoast()
+#0 /opt/lampp/htdocs/CodeIgniterBluePrint/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/CodeIgniterBluePrint/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniterBluePrint/system/Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#3 /opt/lampp/htdocs/CodeIgniterBluePrint/app/Controllers/User.php(10): view('user')
+#4 /opt/lampp/htdocs/CodeIgniterBluePrint/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /opt/lampp/htdocs/CodeIgniterBluePrint/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /opt/lampp/htdocs/CodeIgniterBluePrint/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/CodeIgniterBluePrint/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
